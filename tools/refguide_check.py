@@ -50,6 +50,7 @@ directives.register_directive('only', Only)
 
 BASE_MODULE = "numpy"
 
+
 PUBLIC_SUBMODULES = [
     "f2py",
     "linalg",
@@ -103,7 +104,7 @@ REFGUIDE_ALL_SKIPLIST = [
 REFGUIDE_AUTOSUMMARY_SKIPLIST = [
     # NOTE: should NumPy have a better match between autosummary
     # listings and __all__? For now, TR isn't convinced this is a
-    # priority -- focus on just getting docstrings executed / correct
+    # priority --- focus on just getting docstrings executed / correct
     r'numpy\.*',
 ]
 
